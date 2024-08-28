@@ -1,5 +1,5 @@
 # betelgeuse
-### Ticketing System
+### boilerplate
   
 ### Setup instructions 
 - copy all .example.env files into new .env files in each respective folder
