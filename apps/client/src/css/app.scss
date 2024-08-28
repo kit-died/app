@@ -1,0 +1,15 @@
+@import './scrollbar.scss';
+@import './quasar-overrides.scss';
+@import './utils.scss';
+@import './typography.scss';
+@import './animations.scss';
+@import './colours.scss';
+
+.ticket-header-height {
+  height: 82px;
+}
+
+.top-bar {
+  height: 52px;
+  font-size: 18px;
+}

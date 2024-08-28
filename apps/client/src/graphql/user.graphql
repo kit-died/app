@@ -1,0 +1,49 @@
+query GetUserList(
+  $where: UserWhere
+  $take: Int
+  $skip: Int
+  $sort: [[String!]!]
+) {
+  users(
+    where: $where,
+    take: $take,
+    skip: $skip,
+    sort: $sort
+  ) {
+    id
+    name
+    username
+    email
+    phone
+    avatar
+    status
+  }
+}
+
+mutation CreateUser($data: CreateUserDto!) {
+  createUser(data: $data) {
+    id
+    name
+    username
+    email
+    phone
+    avatar
+    status
+  }
+}
+
+mutation UpdateUser($id: Int!, $data: UpdateUserDto!) {
+  updateUser(id: $id, data: $data) {
+    id
+    name
+    username
+    email
+    phone
+    avatar
+    status
+  }
+}
+
+mutation DeleteUser($id: Int!) {
+  deleteUser(id: $id)
+}

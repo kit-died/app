@@ -1,0 +1,49 @@
+@import "quasar/src/css/index";
+
+.q-icon.icon-1,
+.q-btn.icon-1 .q-icon {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 200,
+    'opsz' 45;
+}
+
+.q-icon.icon-2,
+.q-btn.icon-2 .q-icon {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 100,
+    'opsz' 45;
+}
+
+.q-icon.icon-3,
+.q-btn.icon-3 .q-icon {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 20;
+}
+
+.q-editor {
+  .q-chip {
+    margin: 0 4px;
+  }
+}
+.avatar-near.q-item__section--avatar {
+  min-width: 37px;
+}
+
+.q-drawer--right {
+  background-color: $app-color;
+}
+
+.q-btn--rectangle:not(.q-btn--rounded, .not-rounded) {
+  border-radius: 8px;
+}
+
+.q-tooltip {
+  @extend .text-body1 !optional;
+}

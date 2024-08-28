@@ -1,0 +1,10 @@
+.dockerignore
+docker
+node_modules
+npm-debug.log
+.git
+.gitignore
+packages/server/node_modules
+packages/server/dist
+packages/client/node_modules
+packages/client/dist

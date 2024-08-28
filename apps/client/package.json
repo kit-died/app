@@ -1,0 +1,55 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "description": "Web client boilerplate.",
+  "productName": "Fenaka web client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "codegen": "graphql-codegen",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.6",
+    "@quasar/extras": "^1.16.12",
+    "@vue/apollo-composable": "^4.0.0",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "echarts": "^5.5.1",
+    "graphql": "^16.8.1",
+    "quasar": "^2.16.6",
+    "typescript": "^5.5.3",
+    "vue": "^3.4.31",
+    "vue-echarts": "^7.0.2",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@parcel/watcher": "^2.4.1",
+    "@quasar/app-vite": "^2.0.0-beta.15",
+    "@quasar/quasar-app-extension-apollo": "^2.2.3",
+    "@types/node": "^20.5.9",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "graphql-codegen": "^0.4.0",
+    "prettier": "^3.3.2",
+    "typescript": "~5.5.3",
+    "vite-plugin-checker": "^0.7.1",
+    "vite-plugin-graphql-codegen": "^3.3.8",
+    "vue-tsc": "^2.0.1"
+  },
+  "engines": {
+    "node": "^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

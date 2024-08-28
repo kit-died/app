@@ -1,0 +1,12 @@
+query AuthenticateBearerToken {
+  authenticate {
+    token
+    expiresAt
+    user {
+      id
+      name
+      username
+      avatar
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@keyframes collapseIn {
+  from {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+  to {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
+
+.collapse-in {
+  animation-name: collapseIn;
+  animation-timing-function: ease-in;
+}
